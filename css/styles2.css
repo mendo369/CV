@@ -345,11 +345,86 @@ footer{
   height: 30px;
 }
 
-footer a{
+footer a:link{
   color: #fff;
 }
 
 /* Proyectos.html */
 
+.proyectos{
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.apps{
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.proyecto{
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.proyecto-contenido {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.proyect-title{
+  text-align: center;
+}
+
+.img-tecnologia-proyecto{
+  width: 25px;
+  height: 25px;
+  align-items: center;
+}
+
+.proyect-img{
+  border: 1px solid black;
+}
+
+.img-proyect{
+  width: 450px;
+  height: 300px;
+}
 
 
+
+/* CONTACTO */
+
+.contactos{
+  display: grid;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(2, 0.5fr);
+  text-align: center;
+  gap: 2rem;
+  position: relative;
+  transform: translateY(40%);
+}
+
+.contacto{
+  margin: 50px auto 20px;
+}
+
+.img-contacto{
+  height: 50px;
+  width: 50px;
+  animation: movimiento 2.5s linear infinite;
+}
+
+@keyframes movimiento{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0)
+  }
+}
