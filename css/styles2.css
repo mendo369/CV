@@ -40,9 +40,18 @@ body {
   margin-left: 50%;
   transform: translateX(-50%);
 }
+
+.ingresar a:visited, a:link{
+  color: white;
+}
+
 .ingresar:hover{
     background-color: #fff;
     color: #000;
+}
+
+.ingresar:hover a:visited, a:link{
+  color:#000;
 }
 
 /* LOGOS */
@@ -178,11 +187,26 @@ a:link {
   margin-right: 5px;
   background-color: white;
   border: 1px solid #000;
+  cursor: pointer;
 }
 
 .btn a:link, a:visited{
   color: rgb(0, 0, 0);
 }
+
+.btn:hover {
+  background-color: #000;
+  color: white;
+  border:  1px solid #fff;
+}
+
+.btn:hover a:hover {
+  color: white;
+}
+
+/* a:hover{
+  color: white;
+} */
 
 .btn-active{
   background-color: #000;
@@ -194,11 +218,7 @@ a:link {
   color: #fff;
 }
 
-.btn:hover {
-  background-color: #000;
-  color: #fff;
-  border:  1px solid #fff;
-}
+
 /* .btn:hover a:link, a:active{
   color: white;
 } */
@@ -404,11 +424,12 @@ footer a:link{
   text-align: center;
   gap: 2rem;
   position: relative;
-  transform: translateY(40%);
+  transform: translateY(30%);
 }
 
 .contacto{
   margin: 50px auto 20px;
+  font-size: 1.4rem;
 }
 
 .img-contacto{
