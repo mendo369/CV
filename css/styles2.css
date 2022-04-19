@@ -467,3 +467,17 @@ footer a:link{
     transform: translateY(0)
   }
 }
+
+
+@media(max-width: 1024px){
+  .tecnologia-item img{
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media(max-width: 768px){
+  .tecnologias{
+    display: none;
+  }
+}
