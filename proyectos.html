@@ -7,6 +7,7 @@
     <title>Luis Mendoza</title>
     <link rel="stylesheet" href="./css/styles2.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
+    <meta name="theme-color" content="#2091F9" />
   </head>
   <body>
     <header>
@@ -55,7 +56,13 @@
           <li class="menu--item btn">
             <a href="./contacto.html">Contacto</a>
           </li>
+
+          <img src="./images/close.svg" alt="close" class="nav__close" />
         </ul>
+
+        <div class="nav__menu">
+          <img src="./images/menu.svg" alt="menu" class="nav__img" />
+        </div>
       </nav>
     </header>
 
@@ -67,7 +74,8 @@
           <div class="proyecto-contenido">
             <div>
               <h2 class="proyect-title">Presupuesto</h2>
-              <h4 class="tecnologias">
+              <br />
+              <h4 class="tecnologias-proyecto">
                 Tecnologías:
                 <span
                   ><img
@@ -82,6 +90,7 @@
                     class="img-tecnologia-proyecto"
                 /></span>
               </h4>
+              <br />
               <p class="proyect-description">
                 Esta aplicación fue hecha para que las personas pudieran
                 observar de manera más gráfica sus ingresos y egresos, y así
@@ -93,14 +102,13 @@
                 así poder decidir acerca de realizar algún tramite con esta.
               </p>
             </div>
-            <div>
-              <div class="proyect-img">
-                <img
-                  class="img-proyect"
-                  src="./images/presupuesto2.jpg"
-                  alt="presupuesto"
-                />
-              </div>
+
+            <div class="proyect-img">
+              <img
+                class="img-proyect"
+                src="./images/presupuesto2.jpg"
+                alt="presupuesto"
+              />
             </div>
           </div>
           <button class="btn-proyecto">
@@ -114,7 +122,8 @@
           <div class="proyecto-contenido">
             <div>
               <h2 class="proyect-title">Control clientes</h2>
-              <h4 class="tecnologias">
+              <br />
+              <h4 class="tecnologias-proyecto">
                 Tecnologías:
                 <span
                   ><img
@@ -129,6 +138,7 @@
                     class="img-tecnologia-proyecto"
                 /></span>
               </h4>
+              <br />
               <p class="proyect-description">
                 Esta aplicación permite llevar un registro del saldo de sus
                 clientes y la cantidad de estos, además de permitir la edición
@@ -145,14 +155,12 @@
                 Password: 123456
               </p>
             </div>
-            <div>
-              <div class="proyect-img">
-                <img
-                  class="img-proyect"
-                  src="./images/contr.jpg"
-                  alt="control Clientes"
-                />
-              </div>
+            <div class="proyect-img">
+              <img
+                class="img-proyect"
+                src="./images/contr.jpg"
+                alt="control Clientes"
+              />
             </div>
           </div>
           <button class="btn-proyecto">
@@ -166,7 +174,8 @@
           <div class="proyecto-contenido">
             <div>
               <h2 class="proyect-title">Demail (desarrollo)</h2>
-              <h4 class="tecnologias">
+              <br />
+              <h4 class="tecnologias-proyecto">
                 Tecnologías:
                 <span
                   ><img
@@ -175,6 +184,7 @@
                     class="img-tecnologia-proyecto"
                 /></span>
               </h4>
+              <br />
               <p class="proyect-description">
                 Demail es una aplicacion de mensajería sencilla. Usa firebase
                 como backend para facilitar los registros, las autenticaciones,
@@ -185,21 +195,18 @@
                 <br />
                 Actualmente se encuentra en desarrollo y está prevista para
                 también funcionar como pwa para tener una mejor portabilidad y
-                uso de esta. Aunque aún no está terminada puedes ver su
-                repositorio si lo deseas. ❤
+                uso de esta.
               </p>
             </div>
-            <div>
-              <div class="proyect-img">
-                <img
-                  class="img-proyect"
-                  src="./images/mensajeriaDemail.png"
-                  alt="Demail"
-                />
-              </div>
+            <div class="proyect-img">
+              <img
+                class="img-proyect"
+                src="./images/mensajeriaDemail.png"
+                alt="Demail"
+              />
             </div>
           </div>
-          <button class="btn-proyecto">
+          <button class="btn-proyecto" style="display: none">
             <a href="" target="blank">ver</a>
           </button>
         </div>
@@ -214,7 +221,7 @@
           <div class="proyecto-contenido">
             <div>
               <h2 class="proyect-title">Ferretería</h2>
-
+              <br />
               <p class="proyect-description">
                 Esta página fue dearrollada con el fin de poder hacer visible
                 una pequeña ferretería en internet. <br />
@@ -226,10 +233,8 @@
                 poner en contacto con el establecimiento.
               </p>
             </div>
-            <div>
-              <div class="proyect-img">
-                <img class="img-proyect" src="./images/ferreteria.jpg" alt="" />
-              </div>
+            <div class="proyect-img">
+              <img class="img-proyect" src="./images/ferreteria.jpg" alt="" />
             </div>
           </div>
           <button class="btn-proyecto">
@@ -241,7 +246,7 @@
           <div class="proyecto-contenido">
             <div>
               <h2 class="proyect-title">Sala de belleza</h2>
-
+              <br />
               <p class="proyect-description">
                 Esta página fue creada como material de estudio, simulando la
                 necesidad de un establecimiento de tener su propia página web.
@@ -254,14 +259,8 @@
                 establecimiento.
               </p>
             </div>
-            <div>
-              <div class="proyect-img">
-                <img
-                  class="img-proyect"
-                  src="./images/salaBelleza.jpg"
-                  alt=""
-                />
-              </div>
+            <div class="proyect-img">
+              <img class="img-proyect" src="./images/salaBelleza.jpg" alt="" />
             </div>
           </div>
           <button class="btn-proyecto">
@@ -270,5 +269,7 @@
         </div>
       </section>
     </main>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
