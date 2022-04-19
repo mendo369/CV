@@ -441,8 +441,8 @@ footer a:link{
   grid-template-columns: repeat(2, 0.5fr);
   text-align: center;
   gap: 2rem;
-  position: relative;
-  transform: translateY(30%);
+  /* position: relative;
+  transform: translateY(30%); */
 }
 
 .contacto{
