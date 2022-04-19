@@ -307,7 +307,7 @@ main{
 }
 .td-porcentaje{
   width: 100%;
-  background-color: rgba(58, 57, 57, 0.342);
+  background-color: rgba(58, 57, 57, 0.055);
 }
 
 .porcentaje-conocimientos{
@@ -385,6 +385,7 @@ footer a:link{
 .proyecto{
   display: grid;
   grid-auto-flow: row;
+  margin: 40px auto;
 }
 
 .proyecto-contenido {
@@ -411,7 +412,24 @@ footer a:link{
   height: 300px;
 }
 
+.btn-proyecto{
+  margin: 20px auto 50px;
+  width: 70px;
+  height: 35px;
+  border: 1px solid #000;
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #000;
+}
 
+.btn-proyecto:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-proyecto:hover a:hover{
+  color:white
+}
 
 /* CONTACTO */
 
