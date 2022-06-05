@@ -69,7 +69,6 @@ body {
 }
 
 #yo{
-  position: absolute;
   top: 50%;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -502,6 +501,12 @@ footer a:link{
   .tecnologia-item img{
     height: 30px;
     width: 30px;
+  }
+}
+
+@media(max-width: 800px){
+  #yo{
+    position: absolute;
   }
 }
 
