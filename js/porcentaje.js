@@ -1,11 +1,11 @@
 let porcentajeJs = 60;
-let porcentajeAngular = 73;
-let porcentajeVue = 68;
+let porcentajeAngular = 60;
+let porcentajeVue = 70;
 let porcentajePython = 45;
 let porcentajeJava = 40;
 let porcentajeTs = 50;
 let porcentajeCss = 65;
-let porcentajeExpress = 35;
+let porcentajeExpress = 50;
 
 const barraporcentajeJs = document.getElementById("porcentajeJs");
 const barraporcentajeAngular = document.getElementById("porcentajeAngular");
